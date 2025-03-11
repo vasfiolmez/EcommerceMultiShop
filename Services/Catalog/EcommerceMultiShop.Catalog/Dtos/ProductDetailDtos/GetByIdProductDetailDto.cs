@@ -1,6 +1,6 @@
 ﻿namespace EcommerceMultiShop.Catalog.Dtos.ProductDetailDtos
 {
-    public class GetByIdProducDetailDto
+    public class GetByIdProductDetailDto
     {
         public string ProductDetailId { get; set; }
         public string ProductDescription { get; set; }

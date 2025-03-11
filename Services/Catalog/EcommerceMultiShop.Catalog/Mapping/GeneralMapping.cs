@@ -23,7 +23,7 @@ namespace EcommerceMultiShop.Catalog.Mapping
 
             CreateMap<ProductDetail,ResultProductDetailDto>().ReverseMap();
             CreateMap<ProductDetail,UpdateProductDetailDto>().ReverseMap();
-            CreateMap<ProductDetail,GetByIdProducDetailDto>().ReverseMap();
+            CreateMap<ProductDetail,GetByIdProductDetailDto>().ReverseMap();
             CreateMap<ProductDetail,CreateProductDetailDto>().ReverseMap();
 
             CreateMap<ProductImage,ResultProductImageDto>().ReverseMap();
