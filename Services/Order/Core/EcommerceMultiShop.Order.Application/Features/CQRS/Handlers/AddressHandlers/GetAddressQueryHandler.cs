@@ -17,7 +17,7 @@ namespace EcommerceMultiShop.Order.Application.Features.CQRS.Handlers.AddressHan
         {
             _addressRepository = addressRepository;
         }
-        public async Task<List<GetAddressQueryResult>> Handler()
+        public async Task<List<GetAddressQueryResult>> Handle()
         {
             var values=await _addressRepository.GetAllAsync();
             return values.Select(x => new GetAddressQueryResult
